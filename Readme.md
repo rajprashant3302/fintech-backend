@@ -31,7 +31,7 @@ npm install
 
 ▶️ 4. Start the Server
 npm start
-
+```
 
 🌐 Environment Variables
 
@@ -48,7 +48,7 @@ http://localhost:5000
 
 This project strictly follows the **MVC (Model-View-Controller)** design pattern to ensure separation of concerns, scalability, and maintainable code.
 
-```text
+```bash
 ├── src/
 │   ├── config/
 │   │   └── connectDB.js                  # MongoDB connection setup
