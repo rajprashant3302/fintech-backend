@@ -34,7 +34,7 @@ npm start
 ```
 
 🌐 Environment Variables
-
+```bash
 Create a .env file in the root directory:
 
 PORT=5000
@@ -43,6 +43,8 @@ JWT_SECRET=your_secret_key
 
 🌍 Base URL
 http://localhost:5000
+
+```
 
 ## 📂 Architecture & File Structure
 
