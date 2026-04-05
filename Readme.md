@@ -46,6 +46,24 @@ http://localhost:5000
 
 ```
 
+
+## ⚠️ Deployment Note (Render - Free Tier)
+
+This project is deployed on **Render (Free Tier)**.
+
+- 🕒 The server may take **30–60 seconds to start** after inactivity.
+- 💤 This happens because free-tier services **go to sleep** when not in use.
+- 🚀 Once activated, the API responds normally without delays.
+
+### 📌 Tip for Testing
+If the API doesn’t respond immediately:
+1. Wait for ~30–60 seconds after the first request
+2. Refresh or retry the request
+
+> This is a limitation of the hosting platform, not the application itself.
+
+---
+
 ## 📂 Architecture & File Structure
 
 This project strictly follows the **MVC (Model-View-Controller)** design pattern to ensure separation of concerns, scalability, and maintainable code.
@@ -343,6 +361,25 @@ This section provides a detailed explanation of all backend controllers, their r
 - Sets:
 ```js
 isDeleted: true
+```
+## 👨‍💻 Author
+
+**Prashant Raj**
+
+- 💻 Full Stack Developer (Node.js, MongoDB, JavaScript,Docker , kafka)
+- 🚀 Passionate about building scalable backend systems and real-world applications
+- 🧠 Strong interest in system design, databases, and financial tech systems
+- 🌱 Currently working on projects like:
+  - BiteGo (A food delivery platform having various microservices and kafka to handle large amount of data)
+
+### 📫 Connect with Me
+
+- 📧 Email: rajprashant3302@gmail.com 
+- 🔗 GitHub: https://github.com/rajprashant3302  
+- 💼 LinkedIn: https://www.linkedin.com/in/prashant-raj-710845318/
+- 🔗 Resume /CV - https://drive.google.com/file/d/12VWl-PzVWlZR6v93T-Cxna1TqNTrZCU2/view?usp=drivesdk
+
+---
 
 
 
