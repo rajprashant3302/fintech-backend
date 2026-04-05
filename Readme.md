@@ -171,24 +171,21 @@ This document provides an overview of all available API endpoints, their access 
 
 ## 💰 Transaction Routes
 
-| Method | Endpoint                           | Access        | Description                                      |
-|--------|------------------------------------|--------------|--------------------------------------------------|
-| POST   | /api/trans/my/add                  | User         | Create a transaction (ACID Balance Check)        |
+| Method | Endpoint | Access | Description |
+|--------|----------|--------|-------------|
+| POST   | /api/trans/my/add | User | Create a transaction (ACID Balance Check) |
 
-|        | /api/trans/my?type=expense&        |              |                                                  |
-| GET    | category=food&startDate=2026-04-01 | User         | Get personal transactions (Dynamic Filters)      |
-|        | &endDate=2026-04-04&page=1&limit=10|              |                                                  |
+| GET | /api/trans/my?type=expense&<br>category=food&startDate=2026-04-01&<br>endDate=2026-04-04&page=1&limit=10 | User | Get personal transactions (Dynamic Filters) |
 
-| PATCH  | /api/trans/my/update/:id           | User         | Partially update a transaction record            |
-| DELETE | /api/trans/my/delete/:id           | User         | Soft delete a transaction                        |
-| POST   | /api/admin/trans/add               | Admin        | Create any transaction (ACID Balance Check)      |
+| PATCH  | /api/trans/my/update/:id | User | Partially update a transaction record |
+| DELETE | /api/trans/my/delete/:id | User | Soft delete a transaction |
 
-|        | /api/trans/my?type=expense&        |              |                                                  |
-| GET    | category=food&startDate=2026-04-01 | Admin        | Get personal transactions (Dynamic Filters)      |
-|        | &endDate=2026-04-04&page=1&limit=10|              |                                                  |
+| POST   | /api/admin/trans/add | Admin | Create any transaction (ACID Balance Check) |
 
-| PATCH  | /api/admin/trans/update/:id        | Admin        | Partially update any transaction record          |
-| DELETE | /api/admin/trans/delete/:id        | Admin        | Soft delete any transaction                      |
+| GET | /api/admin/trans/all?type=expense&<br>category=food&startDate=2026-04-01&<br>endDate=2026-04-04&page=1&limit=10 | Admin | Get all transactions (Dynamic Filters) |
+
+| PATCH  | /api/admin/trans/update/:id | Admin | Partially update any transaction record |
+| DELETE | /api/admin/trans/delete/:id | Admin | Soft delete any transaction |
 
 ---
 
