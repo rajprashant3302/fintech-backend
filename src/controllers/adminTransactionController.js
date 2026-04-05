@@ -84,13 +84,13 @@ const addRecord = async (req, res) => {
             success: true,
             message: "Transaction Successfull!",
             data: {
-                _id: data._id,
-                userId: data.userId,
-                amount: data.amount,
-                type: data.type,
-                category: data.category,
-                notes: data.notes,
-                transactionDate: data.transactionDate
+                _id: data[0]._id,
+                userId: data[0].userId,
+                amount: data[0].amount,
+                type: data[0].type,
+                category: data[0].category,
+                notes: data[0].notes,
+                transactionDate: data[0].transactionDate
             }
         });
 
